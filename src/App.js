@@ -1,11 +1,16 @@
 import React from "react";
 import "./styles.css";
+import {Timer} from "./components/timer";
+import {Timers} from "./components/timers";
 
 export default function App() {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+        <Timers>
+            hi
+        </Timers>
+        <Timer time={2000}/>
+        <Timer time={4000}/>
     </div>
   );
 }
