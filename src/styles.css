@@ -1,3 +1,16 @@
+:root {
+  --base-font-size: 16px;
+  --base-lego-gap: .5rem;
+  --lego-margin: var(--base-lego-gap);
+  --lego-padding: var(--base-lego-gap);
+}
+
+body {
+  font-size: var(--base-font-size);
+  margin: 0;
+  padding: var(--lego-padding);
+}
+
 .App {
   font-family: sans-serif;
   text-align: center;
