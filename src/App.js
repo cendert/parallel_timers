@@ -94,7 +94,7 @@ export const App = () => {
     return (
     <div className="App">
         <Grid>
-            <div style={{backgroundColor: 'white', gridArea: 'center'}}/>
+            <div style={{backgroundColor: 'lightgrey', gridArea: 'center'}}/>
             <TitleBar>
                 <h1>Grand Theft Timer</h1>
             </TitleBar>

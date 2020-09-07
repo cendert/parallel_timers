@@ -2,6 +2,7 @@
 import { jsx } from '@emotion/core'
 
 const titleBarStyle = {
+    backgroundColor: 'white',
     gridArea: 'title-bar',
     padding: 'var(--lego-padding)'
 }

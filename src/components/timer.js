@@ -3,7 +3,7 @@ import { jsx } from '@emotion/core'
 import {Button} from "./button";
 
 const timerStyle = {
-    backgroundColor: 'lightgray',
+    backgroundColor: 'white',
     display: 'flex',
     justifyContent: 'space-between',
     margin: 'var(--lego-margin) 0',
