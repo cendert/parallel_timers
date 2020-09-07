@@ -8,7 +8,7 @@ export const Timers = ({timers = {}, handleDelete = () => {}}) =>
         fontSize: '2rem',
         gridArea: 'content',
         overflowY: 'auto',
-        padding: 'var(--lego-padding)'
+        padding: '0 var(--lego-padding)'
     }} >
         {timers && Object.values(timers).map((timer, index) => <Timer key={Object.keys(timers)[index]} keyProp={Object.keys(timers)[index]} description={timer.description} duration={timer.duration} handleDelete={handleDelete}/>)}
         {Object.keys(timers).length === 0 && <Timer description={'add a timer'}/>}

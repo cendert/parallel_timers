@@ -4,6 +4,8 @@ import {Button} from "./button";
 
 const timerStyle = {
     backgroundColor: 'lightgray',
+    display: 'flex',
+    justifyContent: 'space-between',
     margin: 'var(--lego-margin) 0',
     padding: 'var(--lego-padding)'
 }
