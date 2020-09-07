@@ -2,7 +2,10 @@
 import { jsx } from '@emotion/core'
 
 const bottomBarStyle = {
-    gridArea: 'bottom-bar'
+    display: 'flex',
+    gridArea: 'bottom-bar',
+    justifyContent: 'space-between',
+    padding: 'var(--lego-padding)'
 }
 
 export const BottomBar = ({children}) =>

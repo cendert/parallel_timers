@@ -1,11 +1,13 @@
 /** @jsx jsx */
 import { jsx } from '@emotion/core'
+import {Button} from "../components/button";
 
 const formStyle = {
-    gridArea: 'content'
+    gridArea: 'content',
+    padding: 'var(--lego-padding)'
 }
 
-export const AddTimerForm = ({handleSubmit = () => {}, handleInputChange = () => {}}) =>
+export const AddTimerForm = ({handleSubmit = () => {}, handleInputChange = () => {}, handleAddTimerFormClose = () => {}}) =>
     <form css={formStyle} onSubmit={handleSubmit}>
         <div>
             <label htmlFor="description">description</label>
@@ -15,5 +17,6 @@ export const AddTimerForm = ({handleSubmit = () => {}, handleInputChange = () =>
             <label htmlFor="duration">duration</label>
             <input onChange={handleInputChange} type="number" id="duration" />
         </div>
-        <button onClick={handleSubmit}>Submit</button>
+        <Button onClick={handleSubmit}>Submit</Button>
+        <Button onClick={handleAddTimerFormClose}>Close</Button>
     </form>

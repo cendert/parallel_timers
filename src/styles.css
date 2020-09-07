@@ -1,14 +1,15 @@
 :root {
   --base-font-size: 16px;
-  --base-lego-gap: .5rem;
+  --base-lego-gap: 1rem;
   --lego-margin: var(--base-lego-gap);
   --lego-padding: var(--base-lego-gap);
 }
 
 body {
+  background-color: lightgray;
   font-size: var(--base-font-size);
   margin: 0;
-  padding: var(--lego-padding);
+  padding: 0;
 }
 
 .App {
