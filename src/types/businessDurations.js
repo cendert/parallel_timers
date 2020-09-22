@@ -1,7 +1,0 @@
-export const BUNKER_DURATION = 140
-export const CAR_SHOP_DURATION = 48
-export const COKE_LOCKUP_DURATION = 120
-export const COUNTERFEIT_CASH_DURATION = 160
-export const DOCUMENT_FORGERY_DURATION = 150
-export const METH_LAB_DURATION= 144
-export const WEED_FARM_DURATION = 144
