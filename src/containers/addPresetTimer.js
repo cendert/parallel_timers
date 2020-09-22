@@ -2,6 +2,8 @@
 import { jsx } from "@emotion/core";
 import { Button } from "../components/button";
 
+// TODO: could be better if it supported multi-select.
+
 const addPresetTimerStyle = {
   gridArea: "content",
   listStyleType: "none",
