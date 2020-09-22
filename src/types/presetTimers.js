@@ -20,7 +20,7 @@ export const presetTimers = {
     duration: 150
   },
   meth_lab: {
-    description: "Methamphetamine Laboratory",
+    description: "Meth Lab",
     duration: 144
   },
   weed_farm: {

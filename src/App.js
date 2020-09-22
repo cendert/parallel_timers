@@ -45,8 +45,6 @@ export const App = () => {
   };
 
   const handleDelete = (key) => {
-    console.log(key);
-    console.log(timers);
     let tempTimers = { ...timers };
     delete tempTimers[key];
     setTimers(tempTimers);
